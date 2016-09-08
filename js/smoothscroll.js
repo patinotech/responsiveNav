@@ -37,5 +37,14 @@ $(function() {
     $("body").css("background-color", "white");
     $("*").css("color", "black");
   });
+  $(".contact_down_arrow").click(function(){
+    $("body").css("background-color", "white");
+    $("*").css("color", "black");
+  });
+  $(".portfolio_up_arrow").click(function(){
+    $("body").css("background-color", "black");
+    $("*").css("color", "white");
+  });
+
 
 });

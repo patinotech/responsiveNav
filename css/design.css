@@ -1,10 +1,12 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway:100,400';
 *{
   transition: background-color 2s, color 1s;
+  font-family: 'Raleway', sans-serif;
 }
 body{
   background-color: black;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 a{
   text-decoration: none !important;
@@ -36,7 +38,7 @@ header a:hover{
   font-size: 30px;
   text-align: center;
   margin: auto auto;
-  margin-top: 150px;
+  margin-top:150px;
   width: 30px;
 }
 
@@ -55,8 +57,8 @@ header a:hover{
   font-size: 30px;
   text-align: center;
   margin: auto auto;
-  margin-top: 150px;
-  padding-top: 20px;
+  /*margin-top: 150px;*/
+  padding-top: 7vh;
   width: 30px;
 }
 
@@ -74,16 +76,64 @@ header a:hover{
 
 #bio{
   margin-top: 500px;
-  height: 200vh;
+  height: 100vh;
 }
-#bio .col-sm-6{
-  margin-top: 10%
-}
+
 #bio h1{
-  padding-top: 100px;
+  padding-top: 8vh;
 }
 .bio_down_arrow{
   padding-top:200px;
 }
 
+.bio_down_arrow{
+  padding-top: 20%;
+}
+
+.circle{
+  width: 30%;
+  margin: auto auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
 /*bio end*/
+
+/*contact start*/
+
+#contact{
+  margin-top: 500px;
+  height: 100vh;
+}
+#contact h1{
+  padding-top: 9vh;
+}
+.center{
+  padding-top: 30vh;
+  text-align: center;
+}
+
+.contact_down_arrow{
+
+}
+
+/*contact end*/
+
+/*portfolio start*/
+#portfolio{
+  margin-top: 500px;
+  height: 100vh;
+  text-align: center;
+}
+#portfolio h1{
+  padding-top: 9vh;
+}
+
+.port_image{
+  width: 45%;
+  margin: auto auto;
+}
+#portfolio .row{
+  padding-top: 100px;
+}
+/*portfolio end*/
