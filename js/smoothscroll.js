@@ -1,3 +1,12 @@
+var initialLoad = true;
+
+$(document).ready(function() {
+  $('html, body').animate({
+    scrollTop: 0
+  }, 100);
+    initialLoad = false;
+    console.log("hi");
+});
 
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
@@ -20,4 +29,13 @@ $(function() {
     $("body").css("background-color", "black");
     $("*").css("color", "white");
   });
+  $(".bio_down_arrow").click(function(){
+    $("body").css("background-color", "black");
+    $("*").css("color", "white");
+  });
+  $(".contact_up_arrow").click(function(){
+    $("body").css("background-color", "white");
+    $("*").css("color", "black");
+  });
+
 });

@@ -6,7 +6,9 @@ body{
   background-color: black;
   overflow-y: hidden;
 }
-
+a{
+  text-decoration: none !important;
+}
 /*header start*/
 h1, h2{
   text-align: center;
@@ -72,7 +74,16 @@ header a:hover{
 
 #bio{
   margin-top: 500px;
-  height: 100vh;
+  height: 200vh;
+}
+#bio .col-sm-6{
+  margin-top: 10%
+}
+#bio h1{
+  padding-top: 100px;
+}
+.bio_down_arrow{
+  padding-top:200px;
 }
 
 /*bio end*/
