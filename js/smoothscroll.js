@@ -8,6 +8,8 @@ $(document).ready(function() {
     console.log("hi");
 });
 
+
+
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -21,6 +23,9 @@ $(function() {
       }
     }
   });
+
+
+
   $(".header_arrow").click(function(){
     $("body").css("background-color", "white");
     $("*").css("color", "black");
@@ -45,6 +50,5 @@ $(function() {
     $("body").css("background-color", "black");
     $("*").css("color", "white");
   });
-
-
 });
+$(window).resize(function(){console.log("resized");});

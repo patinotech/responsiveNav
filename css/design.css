@@ -84,7 +84,7 @@ header a:hover{
 }
 
 .bio_down_arrow{
-  padding-top: 450px;
+  padding-top: 355px;
 }
 
 .circle{
@@ -111,7 +111,7 @@ header a:hover{
 }
 
 .contact_down_arrow{
-  padding-top: 90px;
+  padding-top: 35px;
 }
 
 /*contact end*/
@@ -133,4 +133,43 @@ header a:hover{
 #portfolio .row{
   padding-top: 100px;
 }
+.port_2{
+  display: none;
+}
 /*portfolio end*/
+@media (max-width: 1700px) {
+    .bio_down_arrow{
+      padding-top: 300px;
+    }
+    #bio h1{
+      padding-top: 50px;
+    }
+    #contact h1{
+      padding-top:100px;
+    }
+}
+@media (max-width: 800px){
+  .bio_down_arrow{
+    padding: 0;
+    margin-top: 120px;
+  }
+  #bio h1{
+    padding-top: 30px;
+  }
+  #contact h1{
+    padding-top:30px;
+  }
+  #portfolio h1{
+    padding: 0;
+  }
+  .port_1{
+    display: none;
+  }
+  .port_2{
+    margin-top: 130px;
+    display: block;
+  }
+}
+.carousel-control.right, .carousel-control.left{
+  background: none;
+}
