@@ -3,10 +3,11 @@
   transition: background-color 2s, color 1s;
   font-family: 'Raleway', sans-serif;
 }
-body{
+html, body{
   background-color: black;
   overflow-y: hidden;
   overflow-x: hidden;
+  position: relative;
 }
 a{
   text-decoration: none !important;
@@ -172,4 +173,39 @@ header a:hover{
 }
 .carousel-control.right, .carousel-control.left{
   background: none;
+}
+
+
+@media(max-width: 420px){
+  .up_arrow{
+    padding-top:30px;
+  }
+  #head h1{
+    padding-top: 20px;
+  }
+  .bio_up_arrow{
+    padding-top: 10px;
+  }
+  .bio_down_arrow{
+      margin-top: 50px;
+  }
+  #bio h1{
+    padding: 0;
+  }
+  #contact h1{
+    font-size: 100px;
+  }
+  .contact_up_arrow{
+    padding-top: 50px;
+  }
+  .contact_down_arrow{
+    padding-top: 15px;
+  }
+  .center{
+    padding-top: 80px;
+  }
+  #portfolio h1{
+    font-size: 100px;
+    padding-top: 30px;
+  }
 }
