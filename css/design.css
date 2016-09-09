@@ -80,14 +80,11 @@ header a:hover{
 }
 
 #bio h1{
-  padding-top: 1%;
-}
-.bio_down_arrow{
-  padding-top:200px;
+  padding-top: 130px;
 }
 
 .bio_down_arrow{
-  padding-top: 20%;
+  padding-top: 450px;
 }
 
 .circle{
@@ -106,7 +103,7 @@ header a:hover{
   height: 100vh;
 }
 #contact h1{
-  padding-top: 9vh;
+  padding-top: 200px;
 }
 .center{
   padding-top: 8%;
@@ -114,7 +111,7 @@ header a:hover{
 }
 
 .contact_down_arrow{
-
+  padding-top: 90px;
 }
 
 /*contact end*/
