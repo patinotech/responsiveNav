@@ -209,3 +209,11 @@ header a:hover{
     padding-top: 30px;
   }
 }
+@media(max-height: 740px){
+  #bio h1{
+    padding-top:10px;
+  }
+  #contact h1{
+    padding-top:10px;
+  }
+}
