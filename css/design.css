@@ -1,229 +1,61 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway:100,400';
-*{
-  transition: background-color 2s, color 1s;
-  font-family: 'Raleway', sans-serif;
+.hidden-xs{
+  cursor: pointer;
 }
-html, body{
-  background-color: black;
-  overflow-y: hidden;
-  overflow-x: hidden;
+.navbar {
+background-color: #eee;
+min-height: auto;
+position: relative;
+top: 0px;
+font-family:"Droid Sans";
+font-size: 20px;
+width: auto;
+border-bottom: none;
+margin-bottom: 0px;
+padding: 0px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #990000;
+  background-color: transparent;
+}
+
+.navbar-brand {
+padding: 10px 15px;
+height: 80px;
+}
+
+@media (min-width: 768px) {
+.navbar-nav {
   position: relative;
+  right: -20%;
 }
-a{
-  text-decoration: none !important;
+.navbar-nav > li {
+  position: relative;
+  left: -12%;
 }
-/*header start*/
-h1, h2{
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  color: white;
+.navbar-nav > li a {
+  line-height: 126px;
+  vertical-align: middle;
+  padding: 0 24px;
 }
-h1{
-  font-size: 130px;
-  font-weight: 100;
-}
-h2{
-  font-size: 60px;
-  font-weight: 100;
-}
-header{
-  padding-top: 18%;
-}
-header a:hover{
-  text-decoration: none;
-}
-.down_arrow{
-  transition: all .5s;
-  display: block;
-  color:white;
-  font-size: 30px;
-  text-align: center;
-  margin: auto auto;
-  margin-top:150px;
-  width: 30px;
 }
 
-
-.down_arrow:hover{
-  cursor: pointer;
-  font-size: 50px;
-  width: 50px;
-  text-decoration: none;
+@media (min-width: 992px) {
+.navbar-nav > li a {
+  padding: 0 48px;
+}
 }
 
-.up_arrow{
-  transition: all .5s;
-  display: block;
-  color:white;
-  font-size: 30px;
-  text-align: center;
-  margin: auto auto;
-  /*margin-top: 150px;*/
-  padding-top: 7vh;
-  width: 30px;
+@media (min-width: 1200px) {
+.navbar-nav > li a {
+  padding: 0 68px;
 }
-
-.up_arrow:hover{
-  cursor: pointer;
-  font-size: 50px;
-  width: 50px;
-  text-decoration: none;
 }
-
-
-/*header end*/
-
-/*bio start*/
-
-#bio{
-  margin-top: 500px;
-  height: 100vh;
+.red{
+  background-color: red;
+  height: 600px;
 }
-
-#bio h1{
-  padding-top: 130px;
-}
-
-.bio_down_arrow{
-  padding-top: 455px;
-}
-
-.circle{
-  width: 30%;
-  margin: auto auto;
-  padding-top: 10px;
-  padding-bottom: 30px;
-}
-
-/*bio end*/
-
-/*contact start*/
-
-#contact{
-  margin-top: 500px;
-  height: 100vh;
-}
-#contact h1{
-  padding-top: 200px;
-}
-.center{
-  padding-top: 8%;
-  text-align: center;
-}
-
-.contact_down_arrow{
-  padding-top: 35px;
-}
-
-/*contact end*/
-
-/*portfolio start*/
-#portfolio{
-  margin-top: 500px;
-  height: 100vh;
-  text-align: center;
-}
-#portfolio h1{
-  padding-top: 9vh;
-}
-
-.port_image{
-  width: 45%;
-  margin: auto auto;
-}
-#portfolio .row{
-  padding-top: 100px;
-}
-.port_2{
-  display: none;
-}
-/*portfolio end*/
-@media (max-width: 1700px) {
-    .bio_down_arrow{
-      padding-top: 300px;
-    }
-    #bio h1{
-      padding-top: 50px;
-    }
-    #contact h1{
-      padding-top:100px;
-    }
-}
-@media (max-width: 800px){
-  .bio_down_arrow{
-    padding: 0;
-    margin-top: 120px;
-  }
-  #bio h1{
-    padding-top: 30px;
-  }
-  #contact h1{
-    padding-top:30px;
-  }
-  #portfolio h1{
-    padding: 0;
-  }
-  .port_1{
-    display: none;
-  }
-  .port_2{
-    margin-top: 130px;
-    display: block;
-  }
-}
-.carousel-control.right, .carousel-control.left{
-  background: none;
-}
-
-
-@media(max-width: 420px){
-  .up_arrow{
-    padding-top:30px;
-  }
-  #head h1{
-    padding-top: 20px;
-  }
-  .bio_up_arrow{
-    padding-top: 10px;
-  }
-  .bio_down_arrow{
-      margin-top: 50px;
-  }
-  #bio h1{
-    padding: 0;
-  }
-  #contact h1{
-    font-size: 100px;
-  }
-  .contact_up_arrow{
-    padding-top: 50px;
-  }
-  .contact_down_arrow{
-    padding-top: 15px;
-  }
-  .center{
-    padding-top: 80px;
-  }
-  #portfolio h1{
-    font-size: 100px;
-    padding-top: 30px;
-  }
-}
-
-@media(max-height: 1200px){
-  #bio h1{
-    padding-top:30px;
-  }
-  #contact h1{
-    padding-top:30px;
-  }
-}
-
-@media(max-height: 740px){
-  #bio h1{
-    padding-top:10px;
-  }
-  #contact h1{
-    padding-top:10px;
-  }
+.blue{
+  background-color: blue;
+  height: 600px;
 }
